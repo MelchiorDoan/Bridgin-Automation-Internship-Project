@@ -72,30 +72,27 @@ plt.show()                                               # display the chart
 
 # 3 - Build one row per home
 # **What this does:** the file has one row per reading (about 200 per home). Clustering needs one row per home, so we summarise each home with:
-# - `share_<appliance>`: the share of that home's energy used by each appliance (the shares add up to 1)
-# - `mean_kwh`: the home's average energy per reading
+# - `avg_<appliance>`: the average kWh per reading for each appliance (10 columns, one per appliance)
 #
 # `make_features` is a small reusable recipe. We reuse it in the quality checks later.
 #
-# **In the meeting:** "Each home is now described by what it uses and how much."
+# **In the meeting:** "Each home is now described by how much each appliance uses per reading."
 
 # %%
 # "def" starts a recipe called make_features. It takes a table (we call it "data") and will give back a new table.
 def make_features(data):
-    # Add up kWh for every (home, appliance) pair. .unstack(...) turns the appliances into columns. Missing combinations become 0.
-    totals = data.groupby(["home", "appliance"])["kwh"].sum().unstack(fill_value=0)
-    # Divide every number by its row total, so each number becomes a SHARE of that home's energy (each row adds up to 1)
-    shares = totals.div(totals.sum(axis=1), axis=0)
-    # Put "share_" in front of every column name, e.g. Fridge becomes share_Fridge. (For each name in the list, stick "share_" on the front.)
-    shares.columns = ["share_" + name for name in shares.columns]
-    # Add one more column: each home's average kWh per reading
-    shares["mean_kwh"] = data.groupby("home")["kwh"].mean()
+    # For every (home, appliance) pair, work out the AVERAGE kWh per reading.
+    # .unstack(...) turns the appliances into columns, so each home becomes one row.
+    # If a home has no readings for an appliance, fill_value=0 puts a 0 there (it never used it).
+    avg = data.groupby(["home", "appliance"])["kwh"].mean().unstack(fill_value=0)
+    # Put "avg_" in front of every column name, e.g. Fridge becomes avg_Fridge.
+    avg.columns = ["avg_" + name for name in avg.columns]
     # Hand the finished table back to whoever used the recipe
-    return shares
+    return avg
 
 # Use the recipe on our data, and keep the result in a box called features
 features = make_features(df)
-print("Table size (homes x features):", features.shape)   # rows = homes, columns = features
+print("Table size (homes x features):", features.shape)   # rows = homes, columns = features (should be 500 x 10)
 features.round(3).head()                                  # show the first 5 homes, numbers rounded to 3 decimals
 
 # 4 - Put the features on the same scale
@@ -197,7 +194,7 @@ for seg in profile.index:                                        # repeat for ea
     print(f"Segment {seg} ({int((segment == seg).sum())} homes): " + ", ".join(words))   # show the segment, its size, and the 3 phrases joined by commas
 
 # Make a 2D picture of all homes
-xy = PCA(n_components=2, random_state=0).fit_transform(X)        # squeeze the 11 columns down to 2 so we can plot them
+xy = PCA(n_components=2, random_state=0).fit_transform(X)        # squeeze the 10 columns down to 2 so we can plot them
 colours = ["#0072B2", "#E69F00", "#009E73", "#CC79A7", "#56B4E9", "#D55E00", "#F0E442", "#7F7F7F"]   # a list of colour codes, one per segment
 for seg in sorted(set(segment)):                                 # repeat for each segment
     mask = segment == seg                                        # True for homes in this segment, False for the others
