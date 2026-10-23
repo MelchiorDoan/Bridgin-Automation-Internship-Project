@@ -206,3 +206,7 @@ plt.tight_layout()                                               # tidy the spac
 plt.show()                                                       # display the chart
 
 profile.round(3)                                                 # show the segment averages table, rounded
+
+# Save the results table as a CSV file next to this notebook
+results.to_csv("segments_gmm.csv")    # save the results table as a CSV file next to this notebook
+print("Saved: segments_gmm.csv")
