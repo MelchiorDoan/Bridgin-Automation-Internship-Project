@@ -16,7 +16,7 @@ from sklearn.exceptions import ConvergenceWarning  # ...take the name of a harml
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
 # Two settings used throughout. (Capital letters are a habit for "settings you might change".)
-DATA_FILE = "smart_home_energy_consumption_large.csv"   # the name of your data file. Text always goes in quotes.
+DATA_FILE = "../data/raw/smart_home_energy_consumption_large.csv"   # the name of your data file. Text always goes in quotes.
 SEED = 42    # a starting number for the computer's random choices. Same seed = same results every time.
 
 # ## Step 1 - Load and check the data
@@ -208,5 +208,5 @@ plt.show()                                                       # display the c
 profile.round(3)                                                 # show the segment averages table, rounded
 
 # Save the results table as a CSV file next to this notebook
-results.to_csv("segments_gmm.csv")    # save the results table as a CSV file next to this notebook
-print("Saved: segments_gmm.csv")
+results.to_csv("../data/processed/segments_gmm.csv")    # save the results table as a CSV file next to this notebook
+print("Saved: data/processed/segments_gmm.csv")
