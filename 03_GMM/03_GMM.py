@@ -210,3 +210,23 @@ profile.round(3)                                                 # show the segm
 # Save the results table as a CSV file next to this notebook
 results.to_csv("../data/processed/segments_gmm.csv")    # save the results table as a CSV file next to this notebook
 print("Saved: data/processed/segments_gmm.csv")
+
+# 8 - Stability check: sort the homes twice, using different halves of the readings
+rng = np.random.default_rng(SEED)                  # a random number generator, with a fixed start so results repeat
+aris = []                                          
+for _ in range(10):                                # repeat the test 10 times
+    d = df.copy()                                  # work on a copy so the original table stays untouched
+    d["rand"] = rng.random(len(d))                 # give every reading a random number
+    d["place"] = d.groupby("home")["rand"].rank(pct=True)   # inside each home, rank its readings by that number (0 to 1)
+    
+    # first half of each home's readings -> half A, second half -> half B; then one row per home for each half
+    fa = make_features(d[d["place"] <= 0.5]).reindex(index=features.index, columns=features.columns, fill_value=0)
+    fb = make_features(d[d["place"] > 0.5]).reindex(index=features.index, columns=features.columns, fill_value=0)
+    Xa = StandardScaler().fit_transform(fa)        # put half A on the same scale
+    Xb = StandardScaler().fit_transform(fb)        # put half B on the same scale
+    la = GaussianMixture(n_components=K, covariance_type="full", n_init=5, reg_covar=1e-4, max_iter=500, random_state=SEED).fit(Xa).predict(Xa)   # sort homes using half A
+    lb = GaussianMixture(n_components=K, covariance_type="full", n_init=5, reg_covar=1e-4, max_iter=500, random_state=SEED).fit(Xb).predict(Xb)   # sort homes using half B
+    aris.append(adjusted_rand_score(la, lb))       # how much do the two sorts agree? (1 = same, 0 = chance)
+
+print("Stability (ARI) for each repeat:", np.round(aris, 3))
+print("Average:", round(np.mean(aris), 3), "(near 1 = groups are stable, near 0 = groups change with the readings)")
