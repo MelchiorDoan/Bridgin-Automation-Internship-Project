@@ -4,7 +4,7 @@ K-means clustering of the 500 homes by appliance-level consumption, tested again
 
 - **Notebook:** `02_Kmeans.ipynb`
 - **Input:** the Kaggle data file.
-- **Output:** `home_features.csv` (500 homes x 10 appliances, mean kWh per reading, plus `n_readings` and `avg_kwh`) and `home_segments.csv` (k = 3 labels), both written to `data/processed/`. These files are not stored in this repository; run the notebook to create them.
+- **Output:** `home_features.csv` (500 homes x 10 appliances, mean kWh per reading, plus `n_readings` and `avg_kwh`) and `home_segments.csv` (k = 3 labels), both written to `data/processed/`.
 - **Requires:** pandas, numpy, matplotlib, scikit-learn (see `requirements.txt` in the repository root).
 
 ## Method
