@@ -26,7 +26,7 @@ The consulting team needs to profile 500 smart homes by appliance-level energy u
 │   ├── 01_Data_overview.ipynb      data checks and exploration
 │   └── README.md
 ├── 02_KMeans/
-│   ├── 02_K-means.ipynb            K-means segmentation, tested against shuffled data
+│   ├── 02_Kmeans.ipynb            K-means segmentation, tested against shuffled data
 │   └── README.md
 ├── 03_GMM/
 │   ├── 03_GMM.py                   Gaussian Mixture segmentation and stability check
