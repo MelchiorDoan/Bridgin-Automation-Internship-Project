@@ -55,7 +55,7 @@ The Power BI dashboard is built separately and is not stored in this repository.
 | Step | Folder | How to run | Notes |
 |---|---|---|---|
 | 1 | `01_EDA` | Open `01_Data_overview.ipynb`, Restart & Run All | Includes permutation tests |
-| 2 | `02_KMeans` | Open `02_K-means.ipynb`, Restart & Run All | The shuffle tests take a few minutes. Creates `home_features.csv` and `home_segments.csv` |
+| 2 | `02_KMeans` | Open `02_Kmeans.ipynb`, Restart & Run All | The shuffle tests take a few minutes. Creates `home_features.csv` and `home_segments.csv` |
 | 3 | `03_GMM` | `cd 03_GMM`, then `python 03_GMM.py` | Each chart opens in a window and pauses the script; close it to continue. Step 8 (stability) takes a little longer than the other steps |
 | 4 | `04_Hierarchical` | Open `04_Hierarchical.ipynb`, Restart & Run All | Needs the two CSV files created in step 2 |
 
