@@ -1,4 +1,4 @@
-# 05_Dashboard
+# 05_Dashboard: data tables and Power BI files
 
 Creates the tables used by the Power BI dashboard from the raw readings and the K-means outputs.
 
@@ -34,3 +34,14 @@ Creates the tables used by the Power BI dashboard from the raw readings and the 
 
 **Requires:** pandas. 
 **Random seeds:** none (no random steps).
+
+## Power BI files
+
+The Power BI dashboard is built separately. Its finished files are in `powerbi/`:
+
+| File | What it holds |
+| --- | --- |
+| `smart_home_energy_dashboard.pdf` | The five dashboard pages: Overview, Household Profile, Appliance Summary, Cost, and How to read this dashboard |
+| `measures.md` | The parameter, calculated column and DAX measures used by the dashboard |
+
+To rebuild the dashboard: run the notebook in this folder, open the `.pbix`, and choose Home, then Refresh.
