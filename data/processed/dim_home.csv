@@ -1,0 +1,501 @@
+home_id,cluster,segment_name,n_readings,avg_kwh,segment_label
+1,2,"Fridge, lights and oven-leaning",211,1.5391469194312797,Segment 3
+2,0,AC and laundry-leaning,209,1.4905263157894737,Segment 1
+3,2,"Fridge, lights and oven-leaning",216,1.5373148148148148,Segment 3
+4,1,Lower appliance use,180,1.4586666666666668,Segment 2
+5,2,"Fridge, lights and oven-leaning",207,1.4351207729468598,Segment 3
+6,1,Lower appliance use,214,1.5607009345794394,Segment 2
+7,1,Lower appliance use,211,1.4825118483412325,Segment 2
+8,0,AC and laundry-leaning,201,1.4985572139303482,Segment 1
+9,1,Lower appliance use,218,1.4251834862385322,Segment 2
+10,0,AC and laundry-leaning,190,1.4869473684210526,Segment 1
+11,0,AC and laundry-leaning,180,1.3577777777777778,Segment 1
+12,0,AC and laundry-leaning,221,1.5788235294117647,Segment 1
+13,2,"Fridge, lights and oven-leaning",199,1.5820603015075376,Segment 3
+14,2,"Fridge, lights and oven-leaning",195,1.4464102564102566,Segment 3
+15,2,"Fridge, lights and oven-leaning",178,1.5946629213483148,Segment 3
+16,2,"Fridge, lights and oven-leaning",205,1.3974634146341465,Segment 3
+17,2,"Fridge, lights and oven-leaning",205,1.5358536585365854,Segment 3
+18,1,Lower appliance use,194,1.4140721649484536,Segment 2
+19,2,"Fridge, lights and oven-leaning",217,1.4550230414746543,Segment 3
+20,2,"Fridge, lights and oven-leaning",182,1.526043956043956,Segment 3
+21,2,"Fridge, lights and oven-leaning",212,1.4175943396226414,Segment 3
+22,1,Lower appliance use,207,1.4661835748792271,Segment 2
+23,2,"Fridge, lights and oven-leaning",205,1.5253170731707315,Segment 3
+24,2,"Fridge, lights and oven-leaning",197,1.5186802030456854,Segment 3
+25,1,Lower appliance use,209,1.444976076555024,Segment 2
+26,2,"Fridge, lights and oven-leaning",194,1.4908247422680414,Segment 3
+27,0,AC and laundry-leaning,212,1.3997169811320755,Segment 1
+28,1,Lower appliance use,184,1.445815217391304,Segment 2
+29,1,Lower appliance use,189,1.4744444444444444,Segment 2
+30,0,AC and laundry-leaning,187,1.4706951871657754,Segment 1
+31,0,AC and laundry-leaning,175,1.5177714285714283,Segment 1
+32,0,AC and laundry-leaning,228,1.4928508771929825,Segment 1
+33,1,Lower appliance use,180,1.3937777777777778,Segment 2
+34,0,AC and laundry-leaning,199,1.5245226130653269,Segment 1
+35,0,AC and laundry-leaning,191,1.6461256544502618,Segment 1
+36,0,AC and laundry-leaning,191,1.4088481675392668,Segment 1
+37,1,Lower appliance use,192,1.5388020833333331,Segment 2
+38,1,Lower appliance use,203,1.3342857142857143,Segment 2
+39,0,AC and laundry-leaning,177,1.6080790960451976,Segment 1
+40,2,"Fridge, lights and oven-leaning",200,1.5863,Segment 3
+41,2,"Fridge, lights and oven-leaning",201,1.5297014925373136,Segment 3
+42,1,Lower appliance use,203,1.3956650246305418,Segment 2
+43,2,"Fridge, lights and oven-leaning",192,1.4819270833333336,Segment 3
+44,1,Lower appliance use,192,1.4177604166666666,Segment 2
+45,1,Lower appliance use,217,1.6294009216589862,Segment 2
+46,1,Lower appliance use,201,1.4771641791044778,Segment 2
+47,0,AC and laundry-leaning,193,1.5607253886010364,Segment 1
+48,2,"Fridge, lights and oven-leaning",204,1.6043627450980391,Segment 3
+49,2,"Fridge, lights and oven-leaning",191,1.559476439790576,Segment 3
+50,0,AC and laundry-leaning,199,1.6121608040201003,Segment 1
+51,1,Lower appliance use,207,1.4866666666666668,Segment 2
+52,1,Lower appliance use,213,1.4173708920187793,Segment 2
+53,0,AC and laundry-leaning,176,1.4649431818181815,Segment 1
+54,2,"Fridge, lights and oven-leaning",197,1.4751269035532997,Segment 3
+55,2,"Fridge, lights and oven-leaning",199,1.4902010050251258,Segment 3
+56,0,AC and laundry-leaning,203,1.396305418719212,Segment 1
+57,2,"Fridge, lights and oven-leaning",201,1.5932835820895523,Segment 3
+58,2,"Fridge, lights and oven-leaning",186,1.5428494623655913,Segment 3
+59,1,Lower appliance use,200,1.48625,Segment 2
+60,2,"Fridge, lights and oven-leaning",206,1.4618446601941746,Segment 3
+61,0,AC and laundry-leaning,229,1.6063755458515283,Segment 1
+62,2,"Fridge, lights and oven-leaning",190,1.5493684210526315,Segment 3
+63,2,"Fridge, lights and oven-leaning",197,1.3839086294416243,Segment 3
+64,1,Lower appliance use,212,1.4588679245283018,Segment 2
+65,0,AC and laundry-leaning,206,1.5405339805825244,Segment 1
+66,2,"Fridge, lights and oven-leaning",203,1.461231527093596,Segment 3
+67,2,"Fridge, lights and oven-leaning",200,1.4138499999999998,Segment 3
+68,0,AC and laundry-leaning,213,1.4082159624413144,Segment 1
+69,0,AC and laundry-leaning,200,1.56065,Segment 1
+70,2,"Fridge, lights and oven-leaning",199,1.443065326633166,Segment 3
+71,1,Lower appliance use,210,1.3925714285714286,Segment 2
+72,2,"Fridge, lights and oven-leaning",181,1.5940331491712707,Segment 3
+73,0,AC and laundry-leaning,210,1.5046190476190475,Segment 1
+74,0,AC and laundry-leaning,211,1.6085781990521328,Segment 1
+75,2,"Fridge, lights and oven-leaning",198,1.3583333333333332,Segment 3
+76,2,"Fridge, lights and oven-leaning",180,1.4400555555555554,Segment 3
+77,0,AC and laundry-leaning,193,1.6881347150259067,Segment 1
+78,0,AC and laundry-leaning,198,1.3632828282828282,Segment 1
+79,2,"Fridge, lights and oven-leaning",194,1.5319587628865978,Segment 3
+80,2,"Fridge, lights and oven-leaning",216,1.5258796296296295,Segment 3
+81,2,"Fridge, lights and oven-leaning",206,1.4014077669902911,Segment 3
+82,0,AC and laundry-leaning,208,1.553125,Segment 1
+83,0,AC and laundry-leaning,206,1.5829611650485436,Segment 1
+84,2,"Fridge, lights and oven-leaning",196,1.661887755102041,Segment 3
+85,1,Lower appliance use,213,1.4480281690140846,Segment 2
+86,1,Lower appliance use,224,1.3769196428571429,Segment 2
+87,0,AC and laundry-leaning,200,1.4626499999999998,Segment 1
+88,0,AC and laundry-leaning,214,1.4367289719626166,Segment 1
+89,0,AC and laundry-leaning,170,1.5908235294117647,Segment 1
+90,1,Lower appliance use,166,1.4448192771084338,Segment 2
+91,0,AC and laundry-leaning,209,1.5466507177033493,Segment 1
+92,0,AC and laundry-leaning,201,1.5799004975124378,Segment 1
+93,0,AC and laundry-leaning,192,1.4491145833333334,Segment 1
+94,2,"Fridge, lights and oven-leaning",203,1.5742857142857145,Segment 3
+95,0,AC and laundry-leaning,217,1.5952534562211982,Segment 1
+96,0,AC and laundry-leaning,187,1.500534759358289,Segment 1
+97,2,"Fridge, lights and oven-leaning",208,1.4846634615384615,Segment 3
+98,2,"Fridge, lights and oven-leaning",209,1.3942583732057414,Segment 3
+99,1,Lower appliance use,185,1.6265945945945948,Segment 2
+100,0,AC and laundry-leaning,205,1.523219512195122,Segment 1
+101,1,Lower appliance use,192,1.445,Segment 2
+102,1,Lower appliance use,209,1.5388995215311003,Segment 2
+103,0,AC and laundry-leaning,233,1.529785407725322,Segment 1
+104,2,"Fridge, lights and oven-leaning",192,1.5564583333333333,Segment 3
+105,1,Lower appliance use,197,1.6128426395939086,Segment 2
+106,0,AC and laundry-leaning,204,1.4102941176470587,Segment 1
+107,1,Lower appliance use,193,1.3558031088082902,Segment 2
+108,1,Lower appliance use,193,1.5126424870466322,Segment 2
+109,1,Lower appliance use,178,1.54438202247191,Segment 2
+110,0,AC and laundry-leaning,215,1.5375348837209302,Segment 1
+111,0,AC and laundry-leaning,208,1.5615865384615384,Segment 1
+112,2,"Fridge, lights and oven-leaning",191,1.5445549738219897,Segment 3
+113,0,AC and laundry-leaning,206,1.5779611650485437,Segment 1
+114,1,Lower appliance use,222,1.449189189189189,Segment 2
+115,0,AC and laundry-leaning,213,1.6088732394366196,Segment 1
+116,1,Lower appliance use,188,1.5077127659574467,Segment 2
+117,2,"Fridge, lights and oven-leaning",198,1.458888888888889,Segment 3
+118,1,Lower appliance use,201,1.4787562189054728,Segment 2
+119,1,Lower appliance use,194,1.493505154639175,Segment 2
+120,1,Lower appliance use,179,1.5533519553072626,Segment 2
+121,1,Lower appliance use,197,1.623502538071066,Segment 2
+122,2,"Fridge, lights and oven-leaning",223,1.4469058295964126,Segment 3
+123,2,"Fridge, lights and oven-leaning",202,1.4597524752475248,Segment 3
+124,1,Lower appliance use,199,1.4063316582914571,Segment 2
+125,0,AC and laundry-leaning,197,1.4303553299492384,Segment 1
+126,0,AC and laundry-leaning,209,1.439090909090909,Segment 1
+127,1,Lower appliance use,207,1.488599033816425,Segment 2
+128,0,AC and laundry-leaning,211,1.4230331753554502,Segment 1
+129,2,"Fridge, lights and oven-leaning",204,1.4780392156862745,Segment 3
+130,2,"Fridge, lights and oven-leaning",189,1.5873544973544973,Segment 3
+131,0,AC and laundry-leaning,200,1.5881999999999998,Segment 1
+132,1,Lower appliance use,212,1.4447641509433964,Segment 2
+133,2,"Fridge, lights and oven-leaning",245,1.4862857142857142,Segment 3
+134,2,"Fridge, lights and oven-leaning",188,1.5438297872340423,Segment 3
+135,2,"Fridge, lights and oven-leaning",180,1.3772222222222223,Segment 3
+136,0,AC and laundry-leaning,201,1.5743781094527365,Segment 1
+137,0,AC and laundry-leaning,201,1.525273631840796,Segment 1
+138,0,AC and laundry-leaning,184,1.5078260869565216,Segment 1
+139,2,"Fridge, lights and oven-leaning",202,1.4535148514851486,Segment 3
+140,0,AC and laundry-leaning,185,1.4602162162162162,Segment 1
+141,1,Lower appliance use,170,1.5216470588235294,Segment 2
+142,0,AC and laundry-leaning,194,1.5075257731958762,Segment 1
+143,0,AC and laundry-leaning,226,1.6606194690265488,Segment 1
+144,0,AC and laundry-leaning,201,1.6031343283582091,Segment 1
+145,0,AC and laundry-leaning,202,1.614950495049505,Segment 1
+146,1,Lower appliance use,193,1.5647150259067355,Segment 2
+147,1,Lower appliance use,210,1.4819047619047618,Segment 2
+148,0,AC and laundry-leaning,202,1.4163366336633665,Segment 1
+149,0,AC and laundry-leaning,209,1.5931100478468898,Segment 1
+150,2,"Fridge, lights and oven-leaning",216,1.582824074074074,Segment 3
+151,0,AC and laundry-leaning,218,1.6454587155963305,Segment 1
+152,2,"Fridge, lights and oven-leaning",214,1.6429439252336449,Segment 3
+153,2,"Fridge, lights and oven-leaning",198,1.598282828282828,Segment 3
+154,1,Lower appliance use,211,1.390094786729858,Segment 2
+155,1,Lower appliance use,208,1.5608653846153848,Segment 2
+156,1,Lower appliance use,201,1.523731343283582,Segment 2
+157,2,"Fridge, lights and oven-leaning",184,1.4842934782608697,Segment 3
+158,0,AC and laundry-leaning,187,1.481176470588235,Segment 1
+159,0,AC and laundry-leaning,177,1.5909039548022597,Segment 1
+160,1,Lower appliance use,200,1.46405,Segment 2
+161,2,"Fridge, lights and oven-leaning",215,1.6209302325581396,Segment 3
+162,0,AC and laundry-leaning,201,1.4769651741293532,Segment 1
+163,1,Lower appliance use,222,1.5663513513513514,Segment 2
+164,2,"Fridge, lights and oven-leaning",209,1.5244976076555024,Segment 3
+165,2,"Fridge, lights and oven-leaning",172,1.3896511627906978,Segment 3
+166,0,AC and laundry-leaning,209,1.4550239234449762,Segment 1
+167,0,AC and laundry-leaning,197,1.5277664974619287,Segment 1
+168,0,AC and laundry-leaning,196,1.4653571428571428,Segment 1
+169,0,AC and laundry-leaning,197,1.5609644670050762,Segment 1
+170,0,AC and laundry-leaning,204,1.6713725490196076,Segment 1
+171,2,"Fridge, lights and oven-leaning",176,1.5471590909090909,Segment 3
+172,1,Lower appliance use,195,1.444717948717949,Segment 2
+173,2,"Fridge, lights and oven-leaning",202,1.4115346534653466,Segment 3
+174,2,"Fridge, lights and oven-leaning",194,1.6342268041237114,Segment 3
+175,1,Lower appliance use,179,1.5112290502793295,Segment 2
+176,1,Lower appliance use,207,1.6295169082125605,Segment 2
+177,1,Lower appliance use,201,1.5489552238805968,Segment 2
+178,0,AC and laundry-leaning,213,1.5394835680751175,Segment 1
+179,0,AC and laundry-leaning,211,1.5927488151658769,Segment 1
+180,0,AC and laundry-leaning,206,1.5507281553398058,Segment 1
+181,1,Lower appliance use,201,1.4842786069651743,Segment 2
+182,0,AC and laundry-leaning,197,1.6355837563451776,Segment 1
+183,0,AC and laundry-leaning,203,1.5169458128078817,Segment 1
+184,1,Lower appliance use,206,1.4017961165048545,Segment 2
+185,1,Lower appliance use,173,1.4521387283236995,Segment 2
+186,0,AC and laundry-leaning,196,1.4691836734693875,Segment 1
+187,0,AC and laundry-leaning,217,1.4726267281105991,Segment 1
+188,0,AC and laundry-leaning,199,1.6563819095477388,Segment 1
+189,1,Lower appliance use,202,1.4413861386138616,Segment 2
+190,1,Lower appliance use,209,1.4060765550239234,Segment 2
+191,0,AC and laundry-leaning,188,1.4990425531914893,Segment 1
+192,1,Lower appliance use,202,1.4694554455445543,Segment 2
+193,0,AC and laundry-leaning,187,1.7549197860962569,Segment 1
+194,2,"Fridge, lights and oven-leaning",199,1.4643216080402008,Segment 3
+195,0,AC and laundry-leaning,192,1.6207291666666668,Segment 1
+196,1,Lower appliance use,209,1.3057894736842106,Segment 2
+197,1,Lower appliance use,206,1.4833009708737863,Segment 2
+198,1,Lower appliance use,172,1.4560465116279069,Segment 2
+199,1,Lower appliance use,215,1.4752093023255817,Segment 2
+200,1,Lower appliance use,195,1.4478974358974357,Segment 2
+201,1,Lower appliance use,220,1.509409090909091,Segment 2
+202,2,"Fridge, lights and oven-leaning",190,1.3212105263157894,Segment 3
+203,0,AC and laundry-leaning,199,1.635678391959799,Segment 1
+204,0,AC and laundry-leaning,211,1.5019431279620854,Segment 1
+205,1,Lower appliance use,232,1.5817672413793105,Segment 2
+206,0,AC and laundry-leaning,208,1.542451923076923,Segment 1
+207,0,AC and laundry-leaning,184,1.4644565217391303,Segment 1
+208,1,Lower appliance use,186,1.5212903225806451,Segment 2
+209,0,AC and laundry-leaning,195,1.4843589743589742,Segment 1
+210,2,"Fridge, lights and oven-leaning",196,1.4385714285714284,Segment 3
+211,1,Lower appliance use,201,1.401990049751244,Segment 2
+212,0,AC and laundry-leaning,197,1.4491370558375636,Segment 1
+213,0,AC and laundry-leaning,207,1.539130434782609,Segment 1
+214,1,Lower appliance use,185,1.381243243243243,Segment 2
+215,1,Lower appliance use,194,1.404742268041237,Segment 2
+216,2,"Fridge, lights and oven-leaning",197,1.6098477157360405,Segment 3
+217,2,"Fridge, lights and oven-leaning",216,1.6034722222222224,Segment 3
+218,2,"Fridge, lights and oven-leaning",205,1.4721463414634148,Segment 3
+219,0,AC and laundry-leaning,191,1.5708376963350783,Segment 1
+220,1,Lower appliance use,176,1.397556818181818,Segment 2
+221,1,Lower appliance use,208,1.509903846153846,Segment 2
+222,0,AC and laundry-leaning,213,1.4659154929577465,Segment 1
+223,2,"Fridge, lights and oven-leaning",205,1.470780487804878,Segment 3
+224,0,AC and laundry-leaning,202,1.4764356435643564,Segment 1
+225,1,Lower appliance use,207,1.5719806763285022,Segment 2
+226,2,"Fridge, lights and oven-leaning",182,1.6302197802197802,Segment 3
+227,1,Lower appliance use,194,1.4867525773195878,Segment 2
+228,2,"Fridge, lights and oven-leaning",200,1.5105000000000002,Segment 3
+229,1,Lower appliance use,200,1.5444,Segment 2
+230,2,"Fridge, lights and oven-leaning",212,1.5073584905660378,Segment 3
+231,1,Lower appliance use,199,1.3842713567839198,Segment 2
+232,0,AC and laundry-leaning,206,1.5496601941747574,Segment 1
+233,0,AC and laundry-leaning,181,1.4514917127071825,Segment 1
+234,2,"Fridge, lights and oven-leaning",194,1.4771649484536082,Segment 3
+235,2,"Fridge, lights and oven-leaning",214,1.604766355140187,Segment 3
+236,0,AC and laundry-leaning,221,1.6172850678733033,Segment 1
+237,1,Lower appliance use,213,1.3849765258215962,Segment 2
+238,0,AC and laundry-leaning,218,1.5280275229357798,Segment 1
+239,1,Lower appliance use,187,1.3659358288770054,Segment 2
+240,1,Lower appliance use,203,1.4479310344827587,Segment 2
+241,2,"Fridge, lights and oven-leaning",190,1.4896315789473682,Segment 3
+242,1,Lower appliance use,190,1.3977368421052632,Segment 2
+243,1,Lower appliance use,197,1.409746192893401,Segment 2
+244,1,Lower appliance use,180,1.470611111111111,Segment 2
+245,0,AC and laundry-leaning,211,1.4434597156398103,Segment 1
+246,2,"Fridge, lights and oven-leaning",202,1.499108910891089,Segment 3
+247,0,AC and laundry-leaning,201,1.434726368159204,Segment 1
+248,2,"Fridge, lights and oven-leaning",195,1.4953846153846155,Segment 3
+249,0,AC and laundry-leaning,197,1.4794416243654822,Segment 1
+250,0,AC and laundry-leaning,206,1.531504854368932,Segment 1
+251,0,AC and laundry-leaning,179,1.368826815642458,Segment 1
+252,1,Lower appliance use,184,1.4808152173913045,Segment 2
+253,1,Lower appliance use,190,1.360315789473684,Segment 2
+254,0,AC and laundry-leaning,175,1.5930857142857144,Segment 1
+255,2,"Fridge, lights and oven-leaning",196,1.435561224489796,Segment 3
+256,1,Lower appliance use,205,1.652048780487805,Segment 2
+257,2,"Fridge, lights and oven-leaning",208,1.570192307692308,Segment 3
+258,1,Lower appliance use,200,1.43205,Segment 2
+259,0,AC and laundry-leaning,204,1.481078431372549,Segment 1
+260,2,"Fridge, lights and oven-leaning",220,1.6018636363636365,Segment 3
+261,0,AC and laundry-leaning,233,1.5176394849785408,Segment 1
+262,1,Lower appliance use,222,1.4549999999999998,Segment 2
+263,0,AC and laundry-leaning,206,1.5341747572815534,Segment 1
+264,0,AC and laundry-leaning,199,1.646030150753769,Segment 1
+265,1,Lower appliance use,188,1.388404255319149,Segment 2
+266,0,AC and laundry-leaning,202,1.4317326732673266,Segment 1
+267,2,"Fridge, lights and oven-leaning",197,1.4548730964467005,Segment 3
+268,2,"Fridge, lights and oven-leaning",197,1.6388832487309646,Segment 3
+269,1,Lower appliance use,217,1.4482488479262672,Segment 2
+270,0,AC and laundry-leaning,208,1.4588942307692307,Segment 1
+271,1,Lower appliance use,207,1.512173913043478,Segment 2
+272,1,Lower appliance use,207,1.5244444444444445,Segment 2
+273,0,AC and laundry-leaning,224,1.5682589285714286,Segment 1
+274,2,"Fridge, lights and oven-leaning",199,1.6570854271356783,Segment 3
+275,1,Lower appliance use,211,1.4738388625592418,Segment 2
+276,0,AC and laundry-leaning,207,1.492512077294686,Segment 1
+277,0,AC and laundry-leaning,184,1.6442934782608696,Segment 1
+278,0,AC and laundry-leaning,206,1.474757281553398,Segment 1
+279,1,Lower appliance use,201,1.5691044776119405,Segment 2
+280,1,Lower appliance use,211,1.4380094786729858,Segment 2
+281,2,"Fridge, lights and oven-leaning",198,1.4387878787878787,Segment 3
+282,1,Lower appliance use,205,1.4841951219512195,Segment 2
+283,0,AC and laundry-leaning,181,1.4718232044198891,Segment 1
+284,0,AC and laundry-leaning,218,1.4338990825688072,Segment 1
+285,2,"Fridge, lights and oven-leaning",182,1.571208791208791,Segment 3
+286,1,Lower appliance use,210,1.470047619047619,Segment 2
+287,1,Lower appliance use,190,1.3302631578947368,Segment 2
+288,1,Lower appliance use,203,1.4263546798029558,Segment 2
+289,0,AC and laundry-leaning,210,1.539047619047619,Segment 1
+290,0,AC and laundry-leaning,233,1.5996566523605151,Segment 1
+291,1,Lower appliance use,177,1.476271186440678,Segment 2
+292,1,Lower appliance use,175,1.2779428571428573,Segment 2
+293,2,"Fridge, lights and oven-leaning",180,1.546888888888889,Segment 3
+294,1,Lower appliance use,207,1.4707246376811594,Segment 2
+295,1,Lower appliance use,196,1.446326530612245,Segment 2
+296,1,Lower appliance use,202,1.442227722772277,Segment 2
+297,1,Lower appliance use,183,1.628142076502732,Segment 2
+298,0,AC and laundry-leaning,208,1.424326923076923,Segment 1
+299,0,AC and laundry-leaning,197,1.5082233502538072,Segment 1
+300,0,AC and laundry-leaning,204,1.3985784313725491,Segment 1
+301,1,Lower appliance use,176,1.5168181818181816,Segment 2
+302,0,AC and laundry-leaning,180,1.6710555555555555,Segment 1
+303,2,"Fridge, lights and oven-leaning",208,1.4702403846153846,Segment 3
+304,1,Lower appliance use,191,1.471675392670157,Segment 2
+305,1,Lower appliance use,219,1.4236529680365295,Segment 2
+306,2,"Fridge, lights and oven-leaning",238,1.414327731092437,Segment 3
+307,2,"Fridge, lights and oven-leaning",198,1.460909090909091,Segment 3
+308,1,Lower appliance use,213,1.48093896713615,Segment 2
+309,2,"Fridge, lights and oven-leaning",165,1.523757575757576,Segment 3
+310,1,Lower appliance use,213,1.461408450704225,Segment 2
+311,0,AC and laundry-leaning,180,1.5351666666666666,Segment 1
+312,1,Lower appliance use,184,1.3716304347826087,Segment 2
+313,0,AC and laundry-leaning,210,1.4694761904761904,Segment 1
+314,0,AC and laundry-leaning,185,1.476972972972973,Segment 1
+315,0,AC and laundry-leaning,214,1.4713551401869158,Segment 1
+316,2,"Fridge, lights and oven-leaning",202,1.4203960396039603,Segment 3
+317,2,"Fridge, lights and oven-leaning",202,1.5434653465346535,Segment 3
+318,2,"Fridge, lights and oven-leaning",180,1.5154444444444444,Segment 3
+319,0,AC and laundry-leaning,216,1.512824074074074,Segment 1
+320,1,Lower appliance use,204,1.409166666666667,Segment 2
+321,0,AC and laundry-leaning,198,1.6673232323232323,Segment 1
+322,0,AC and laundry-leaning,206,1.573495145631068,Segment 1
+323,0,AC and laundry-leaning,190,1.5055789473684211,Segment 1
+324,1,Lower appliance use,213,1.7394366197183098,Segment 2
+325,1,Lower appliance use,190,1.3892105263157897,Segment 2
+326,2,"Fridge, lights and oven-leaning",212,1.487311320754717,Segment 3
+327,2,"Fridge, lights and oven-leaning",237,1.4924894514767937,Segment 3
+328,1,Lower appliance use,188,1.4039893617021275,Segment 2
+329,1,Lower appliance use,216,1.5218981481481482,Segment 2
+330,2,"Fridge, lights and oven-leaning",180,1.5398333333333334,Segment 3
+331,1,Lower appliance use,207,1.4972946859903382,Segment 2
+332,1,Lower appliance use,226,1.4714601769911504,Segment 2
+333,0,AC and laundry-leaning,198,1.4708080808080806,Segment 1
+334,2,"Fridge, lights and oven-leaning",202,1.529207920792079,Segment 3
+335,0,AC and laundry-leaning,190,1.614421052631579,Segment 1
+336,2,"Fridge, lights and oven-leaning",182,1.5201098901098902,Segment 3
+337,1,Lower appliance use,210,1.4960000000000002,Segment 2
+338,0,AC and laundry-leaning,187,1.5084491978609624,Segment 1
+339,2,"Fridge, lights and oven-leaning",203,1.5269950738916258,Segment 3
+340,2,"Fridge, lights and oven-leaning",183,1.5027868852459016,Segment 3
+341,1,Lower appliance use,222,1.5202702702702702,Segment 2
+342,2,"Fridge, lights and oven-leaning",192,1.3882291666666668,Segment 3
+343,1,Lower appliance use,184,1.5730434782608695,Segment 2
+344,1,Lower appliance use,197,1.5426395939086293,Segment 2
+345,0,AC and laundry-leaning,223,1.5834529147982064,Segment 1
+346,0,AC and laundry-leaning,188,1.494095744680851,Segment 1
+347,2,"Fridge, lights and oven-leaning",157,1.520764331210191,Segment 3
+348,1,Lower appliance use,207,1.4018357487922706,Segment 2
+349,2,"Fridge, lights and oven-leaning",200,1.4661,Segment 3
+350,1,Lower appliance use,193,1.420518134715026,Segment 2
+351,0,AC and laundry-leaning,192,1.54859375,Segment 1
+352,0,AC and laundry-leaning,214,1.580607476635514,Segment 1
+353,1,Lower appliance use,206,1.3382038834951455,Segment 2
+354,1,Lower appliance use,189,1.4379365079365078,Segment 2
+355,1,Lower appliance use,209,1.4473205741626796,Segment 2
+356,1,Lower appliance use,186,1.4646774193548386,Segment 2
+357,0,AC and laundry-leaning,186,1.5833333333333333,Segment 1
+358,1,Lower appliance use,191,1.4360209424083767,Segment 2
+359,2,"Fridge, lights and oven-leaning",192,1.4924479166666669,Segment 3
+360,0,AC and laundry-leaning,216,1.4882870370370371,Segment 1
+361,2,"Fridge, lights and oven-leaning",185,1.4283243243243244,Segment 3
+362,0,AC and laundry-leaning,207,1.5501449275362318,Segment 1
+363,1,Lower appliance use,177,1.3464406779661016,Segment 2
+364,0,AC and laundry-leaning,173,1.559884393063584,Segment 1
+365,1,Lower appliance use,180,1.4162222222222225,Segment 2
+366,1,Lower appliance use,181,1.5555801104972375,Segment 2
+367,1,Lower appliance use,181,1.556243093922652,Segment 2
+368,1,Lower appliance use,231,1.4741991341991345,Segment 2
+369,2,"Fridge, lights and oven-leaning",221,1.58552036199095,Segment 3
+370,2,"Fridge, lights and oven-leaning",195,1.4584102564102563,Segment 3
+371,1,Lower appliance use,198,1.5766666666666669,Segment 2
+372,0,AC and laundry-leaning,222,1.441576576576577,Segment 1
+373,0,AC and laundry-leaning,226,1.5580088495575222,Segment 1
+374,0,AC and laundry-leaning,204,1.582156862745098,Segment 1
+375,1,Lower appliance use,200,1.4082,Segment 2
+376,2,"Fridge, lights and oven-leaning",188,1.601968085106383,Segment 3
+377,0,AC and laundry-leaning,206,1.495970873786408,Segment 1
+378,1,Lower appliance use,197,1.4833502538071068,Segment 2
+379,0,AC and laundry-leaning,226,1.6369469026548673,Segment 1
+380,2,"Fridge, lights and oven-leaning",187,1.3271657754010695,Segment 3
+381,1,Lower appliance use,195,1.326974358974359,Segment 2
+382,2,"Fridge, lights and oven-leaning",189,1.641693121693122,Segment 3
+383,1,Lower appliance use,198,1.5225757575757577,Segment 2
+384,0,AC and laundry-leaning,189,1.40026455026455,Segment 1
+385,0,AC and laundry-leaning,215,1.5313953488372094,Segment 1
+386,0,AC and laundry-leaning,203,1.463103448275862,Segment 1
+387,1,Lower appliance use,213,1.5544600938967137,Segment 2
+388,2,"Fridge, lights and oven-leaning",199,1.614472361809045,Segment 3
+389,2,"Fridge, lights and oven-leaning",188,1.31718085106383,Segment 3
+390,1,Lower appliance use,213,1.3997183098591548,Segment 2
+391,0,AC and laundry-leaning,200,1.50415,Segment 1
+392,2,"Fridge, lights and oven-leaning",197,1.4599492385786803,Segment 3
+393,2,"Fridge, lights and oven-leaning",178,1.577865168539326,Segment 3
+394,2,"Fridge, lights and oven-leaning",225,1.4161777777777778,Segment 3
+395,0,AC and laundry-leaning,173,1.4163583815028902,Segment 1
+396,1,Lower appliance use,195,1.407948717948718,Segment 2
+397,0,AC and laundry-leaning,187,1.5408021390374331,Segment 1
+398,0,AC and laundry-leaning,186,1.5051612903225806,Segment 1
+399,2,"Fridge, lights and oven-leaning",192,1.52453125,Segment 3
+400,0,AC and laundry-leaning,216,1.3961574074074077,Segment 1
+401,0,AC and laundry-leaning,215,1.6009767441860463,Segment 1
+402,2,"Fridge, lights and oven-leaning",191,1.619738219895288,Segment 3
+403,0,AC and laundry-leaning,201,1.492388059701493,Segment 1
+404,2,"Fridge, lights and oven-leaning",177,1.5602259887005652,Segment 3
+405,0,AC and laundry-leaning,187,1.3429411764705883,Segment 1
+406,2,"Fridge, lights and oven-leaning",178,1.4406179775280898,Segment 3
+407,2,"Fridge, lights and oven-leaning",188,1.5852659574468086,Segment 3
+408,0,AC and laundry-leaning,193,1.6135233160621762,Segment 1
+409,0,AC and laundry-leaning,193,1.4697409326424873,Segment 1
+410,0,AC and laundry-leaning,200,1.51,Segment 1
+411,0,AC and laundry-leaning,223,1.4198206278026906,Segment 1
+412,2,"Fridge, lights and oven-leaning",211,1.5833649289099525,Segment 3
+413,0,AC and laundry-leaning,219,1.587945205479452,Segment 1
+414,0,AC and laundry-leaning,200,1.55005,Segment 1
+415,1,Lower appliance use,171,1.4964912280701754,Segment 2
+416,0,AC and laundry-leaning,194,1.5745360824742267,Segment 1
+417,2,"Fridge, lights and oven-leaning",163,1.6474233128834357,Segment 3
+418,0,AC and laundry-leaning,198,1.4437878787878788,Segment 1
+419,1,Lower appliance use,185,1.5418918918918918,Segment 2
+420,1,Lower appliance use,207,1.511111111111111,Segment 2
+421,1,Lower appliance use,200,1.5252,Segment 2
+422,0,AC and laundry-leaning,193,1.5840414507772018,Segment 1
+423,2,"Fridge, lights and oven-leaning",225,1.6702222222222225,Segment 3
+424,1,Lower appliance use,200,1.43105,Segment 2
+425,2,"Fridge, lights and oven-leaning",230,1.6210434782608694,Segment 3
+426,1,Lower appliance use,191,1.5097905759162304,Segment 2
+427,1,Lower appliance use,174,1.4002873563218392,Segment 2
+428,0,AC and laundry-leaning,209,1.4414832535885167,Segment 1
+429,1,Lower appliance use,192,1.5178125,Segment 2
+430,0,AC and laundry-leaning,203,1.5473399014778326,Segment 1
+431,1,Lower appliance use,197,1.4617766497461928,Segment 2
+432,1,Lower appliance use,177,1.3341242937853108,Segment 2
+433,2,"Fridge, lights and oven-leaning",210,1.534714285714286,Segment 3
+434,0,AC and laundry-leaning,212,1.4621226415094342,Segment 1
+435,1,Lower appliance use,219,1.3618264840182648,Segment 2
+436,2,"Fridge, lights and oven-leaning",204,1.5227941176470587,Segment 3
+437,0,AC and laundry-leaning,186,1.5961290322580646,Segment 1
+438,1,Lower appliance use,198,1.3541919191919192,Segment 2
+439,1,Lower appliance use,197,1.3974111675126906,Segment 2
+440,1,Lower appliance use,201,1.5555721393034827,Segment 2
+441,2,"Fridge, lights and oven-leaning",209,1.66622009569378,Segment 3
+442,2,"Fridge, lights and oven-leaning",204,1.4641666666666666,Segment 3
+443,0,AC and laundry-leaning,207,1.473719806763285,Segment 1
+444,1,Lower appliance use,192,1.44234375,Segment 2
+445,0,AC and laundry-leaning,206,1.4845631067961165,Segment 1
+446,0,AC and laundry-leaning,208,1.495096153846154,Segment 1
+447,1,Lower appliance use,198,1.551111111111111,Segment 2
+448,2,"Fridge, lights and oven-leaning",191,1.3994240837696337,Segment 3
+449,1,Lower appliance use,202,1.4993069306930693,Segment 2
+450,1,Lower appliance use,194,1.5542268041237113,Segment 2
+451,2,"Fridge, lights and oven-leaning",191,1.5078534031413613,Segment 3
+452,0,AC and laundry-leaning,208,1.546875,Segment 1
+453,2,"Fridge, lights and oven-leaning",169,1.573550295857988,Segment 3
+454,0,AC and laundry-leaning,224,1.5574107142857143,Segment 1
+455,0,AC and laundry-leaning,244,1.6045081967213115,Segment 1
+456,1,Lower appliance use,203,1.4496551724137932,Segment 2
+457,0,AC and laundry-leaning,193,1.5552849740932644,Segment 1
+458,1,Lower appliance use,192,1.475625,Segment 2
+459,1,Lower appliance use,189,1.3864550264550266,Segment 2
+460,1,Lower appliance use,200,1.5457,Segment 2
+461,2,"Fridge, lights and oven-leaning",205,1.3589756097560974,Segment 3
+462,2,"Fridge, lights and oven-leaning",201,1.4375124378109452,Segment 3
+463,0,AC and laundry-leaning,203,1.4051724137931034,Segment 1
+464,1,Lower appliance use,195,1.3036410256410256,Segment 2
+465,1,Lower appliance use,202,1.5695544554455445,Segment 2
+466,2,"Fridge, lights and oven-leaning",218,1.408302752293578,Segment 3
+467,2,"Fridge, lights and oven-leaning",200,1.4357999999999995,Segment 3
+468,2,"Fridge, lights and oven-leaning",184,1.4546195652173912,Segment 3
+469,2,"Fridge, lights and oven-leaning",189,1.557777777777778,Segment 3
+470,0,AC and laundry-leaning,202,1.508910891089109,Segment 1
+471,0,AC and laundry-leaning,214,1.4566355140186915,Segment 1
+472,1,Lower appliance use,217,1.4176497695852537,Segment 2
+473,0,AC and laundry-leaning,216,1.391574074074074,Segment 1
+474,1,Lower appliance use,195,1.4535384615384614,Segment 2
+475,2,"Fridge, lights and oven-leaning",212,1.589433962264151,Segment 3
+476,1,Lower appliance use,210,1.4902857142857142,Segment 2
+477,1,Lower appliance use,178,1.4212921348314609,Segment 2
+478,0,AC and laundry-leaning,191,1.6200523560209426,Segment 1
+479,2,"Fridge, lights and oven-leaning",212,1.5383962264150943,Segment 3
+480,1,Lower appliance use,160,1.448125,Segment 2
+481,0,AC and laundry-leaning,210,1.625761904761905,Segment 1
+482,0,AC and laundry-leaning,205,1.5313658536585366,Segment 1
+483,1,Lower appliance use,209,1.5286124401913876,Segment 2
+484,0,AC and laundry-leaning,193,1.4284455958549225,Segment 1
+485,0,AC and laundry-leaning,221,1.487420814479638,Segment 1
+486,1,Lower appliance use,192,1.4177604166666666,Segment 2
+487,0,AC and laundry-leaning,205,1.525219512195122,Segment 1
+488,1,Lower appliance use,195,1.4225641025641025,Segment 2
+489,0,AC and laundry-leaning,207,1.5156521739130435,Segment 1
+490,0,AC and laundry-leaning,225,1.6372888888888888,Segment 1
+491,0,AC and laundry-leaning,194,1.5046907216494847,Segment 1
+492,2,"Fridge, lights and oven-leaning",220,1.4052727272727277,Segment 3
+493,1,Lower appliance use,193,1.546839378238342,Segment 2
+494,1,Lower appliance use,205,1.4691219512195122,Segment 2
+495,0,AC and laundry-leaning,201,1.431442786069652,Segment 1
+496,2,"Fridge, lights and oven-leaning",202,1.3989108910891088,Segment 3
+497,2,"Fridge, lights and oven-leaning",222,1.5337837837837838,Segment 3
+498,0,AC and laundry-leaning,200,1.5878,Segment 1
+499,1,Lower appliance use,210,1.5106190476190478,Segment 2
+500,2,"Fridge, lights and oven-leaning",169,1.631479289940828,Segment 3
