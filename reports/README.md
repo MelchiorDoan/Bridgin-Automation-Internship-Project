@@ -8,7 +8,6 @@ The data used in the project appear to be simulated (see the technical report), 
 | --- | --- | --- |
 | `Smart Home Energy Sample Portfolio of 50 Units` (.pdf) | Client, non-technical | Sample consulting report for a simulated property developer with a 50-unit portfolio. It compares the 50 units with the 500-home benchmark, shows estimated cost by appliance, explains how to use the dashboard, and gives three recommendations |
 | `Smart Home Energy Benchmarking_Technical Report` (.pdf) | Team, mentor, CTO | Technical report: data checks, evidence that the dataset appears simulated, tests for household groups, position-based benchmarking, cost model, dashboard design, search for more realistic data, limitations and reproducibility |
-| `Figures` | Used in the reports | `fig1_cost_by_appliance.png`, `fig2_cost_share.png` and `fig3_units_vs_average.png` |
 
 
 ## Which report to read
