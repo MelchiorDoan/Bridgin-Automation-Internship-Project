@@ -22,13 +22,13 @@ The same numbers are used in both reports, the dashboard and the presentation. I
 
 | Figure | Value | Source notebook |
 | --- | --- | --- |
-| Homes, appliance types and measurements | 500 homes, 10 appliance types, about 100,000 measurements, 1 January 2023 to 1 January 2024 | 01 Data overview |
-| Average energy per measurement | 1.50 kWh | 01 Data overview |
-| Electricity rate | 33 cents per kWh (rounded from 33.14), AER Default Market Offer 2026-27, Ausgrid area (NSW), single/flat rate, including GST, usage charge only | 06 Cost |
-| Average cost per measurement, 50-unit sample and all 500 homes | $0.495 | 06 Cost |
-| Share of cost from Air Conditioning and Heater | 46.5% in the 50-unit sample, about 47% across all 500 homes | 06 Cost |
-| 50-unit sample against the 500-home average | Within about 2% for every appliance; units between 6.7% below and 8.6% above | 06 Cost |
-| Median gap between two measurements of one home | About 30 hours | 07 Time checks |
+| Homes, appliance types and measurements | 500 homes, 10 appliance types, about 100,000 measurements, 1 January 2023 to 1 January 2024 | 01_Data_overview.ipynb |
+| Average energy per measurement | 1.50 kWh | 01_Data_overview.ipynb |
+| Electricity rate | 33 cents per kWh (rounded from 33.14), AER Default Market Offer 2026-27, Ausgrid area (NSW), single/flat rate, including GST, usage charge only | 06_Cost_analysis.ipynb |
+| Average cost per measurement, 50-unit sample and all 500 homes | $0.495 | 06_Cost_analysis.ipynb |
+| Share of cost from Air Conditioning and Heater | 46.5% in the 50-unit sample, about 47% across all 500 homes | 06_Cost_analysis.ipynb |
+| 50-unit sample against the 500-home average | Within about 2% for every appliance; units between 6.7% below and 8.6% above | 06_Cost_analysis.ipynb |
+| Median gap between two measurements of one home | About 30 hours | 07_Time_checks.ipynb |
 
 ## How the figures are made
 
