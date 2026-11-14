@@ -1,7 +1,5 @@
 # Reports
 
-Written reports for the Smart Home Energy Benchmarking project, November 2026.
-
 The data used in the project appear to be simulated (see the technical report), so the reports show how the method and the tool work. They are not findings about real buildings.
 
 ## Files
