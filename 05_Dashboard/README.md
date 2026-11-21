@@ -41,7 +41,7 @@ The Power BI dashboard is built separately. Its finished files are in `powerbi/`
 
 | File | What it holds |
 | --- | --- |
-| `smart_home_energy_dashboard.pdf` | The five dashboard pages: Overview, Household Profile, Appliance Summary, Cost, and How to read this dashboard |
+| `Smart Home Energy_Dashboard.pdf` | The five dashboard pages: Overview, Household Profile, Appliance Summary, Cost, and How to read this dashboard |
 | `measures.md` | The parameter, calculated column and DAX measures used by the dashboard |
 
 To rebuild the dashboard: run the notebook in this folder, open the `.pbix`, and choose Home, then Refresh.
