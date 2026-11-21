@@ -11,6 +11,7 @@ The consulting team needs to profile 500 smart homes by appliance-level energy u
 - **None of the three models finds clear household groups.** Silhouette scores are 0.033 to 0.080 (a score below 0.25 means little structure), and none is clearly better than shuffled data once the number of tests is taken into account. The Gaussian Mixture BIC is lowest at k = 1, so one group fits best.
 - **The Gaussian Mixture groups do not repeat.** When each home's readings are split into two random halves and the model is fitted on each, the two groupings agree no better than chance (mean ARI -0.002 over 10 repeats).
 - **The models agree only very weakly with each other.** K-means and Gaussian Mixture groups match with ARI 0.09 (about 0.00 for shuffled labels). This is above shuffled labels but far from a match (1 would be identical groups).
+- **On one common test, no model passes.** `08_Compare` gives all three models the same silhouette and split-half stability tests, each against the same 100 shuffled datasets. None scores better than shuffled data (silhouette 0.076, 0.058, 0.038; split-half ARI about 0 for all three).
 - **Recommendation:** compare each home with all 500 homes, appliance by appliance, as the main view. Show segments only as a labelled, descriptive extra, not as distinct household types. The dashboard follows this: its home table carries the K-means segment, but no dashboard page shows it.
 - **Cost:** at a flat 33 cents per kWh, an average measurement costs about $0.495. Air Conditioning and Heater make up about 47% of estimated cost.
 - **The data appears simulated** (no seasonal, time-of-day or temperature pattern, and household size changes within every home), so these findings may not apply to real homes.
@@ -49,6 +50,9 @@ The consulting team needs to profile 500 smart homes by appliance-level energy u
 ├── 07_Time_checks/
 │   ├── 07_Time_checks.ipynb            spacing of measurements, time of day, temperature
 │   └── README.md
+├── 08_Compare/
+│   ├── 08_Compare.ipynb                the three models on the same tests and the same shuffled data
+│   └── README.md
 └── reports/
     ├── README.md                       key figures and how the reports are produced
     └── Smart Home Energy Sample Portfolio of 50 Units.pdf    sample client report
@@ -78,8 +82,9 @@ Open each notebook and choose **Restart & Run All**. The notebooks use paths suc
 | 5 | `05_Dashboard` | `05_Dashboard.ipynb` | raw data, files from step 2 | Creates the four tables used by Power BI |
 | 6 | `06_Cost` | `06_Cost_analysis.ipynb` | `fact_energyconsumption.csv` from step 5 | Creates the cost tables and the three report figures |
 | 7 | `07_Time_checks` | `07_Time_checks.ipynb` | `fact_energyconsumption.csv` from step 5 | Prints results only |
+| 8 | `08_Compare` | `08_Compare.ipynb` | raw data; `home_features.csv`, `home_segments.csv` (step 2); `segments_gmm.csv` (step 3) | Takes one to two minutes. Creates `model_comparison.csv` and `model_agreement.csv` |
 
-The notebooks 01 to 05 can be run in order; 06 and 07 can then be run in either order. The files they create are already included in `data/processed/`, so any single notebook can also be run on its own as long as the files it needs are there.
+The notebooks 01 to 05 can be run in order; 06, 07 and 08 can then be run in any order (08 only needs steps 2 and 3). The files they create are already included in `data/processed/`, so any single notebook can also be run on its own as long as the files it needs are there.
 
 ## Data
 
@@ -113,7 +118,7 @@ Each model uses a different stability test (see below), so stability scores shou
 | Best k according to the data | None (silhouette flat, no elbow) | k = 1 (BIC rises from 14,545 at k = 1 to 16,574 at k = 8) | None (no sharp break in the dendrogram) |
 | Working choice | k = 3 (184 / 175 / 141 homes) | k = 2 (253 / 247 homes), the lowest BIC once k ≥ 2 | None (k = 3 used only to compare with K-means) |
 | Silhouette | 0.075 to 0.080 | 0.058 at k = 2 | 0.033 to 0.053 |
-| Compared with shuffled data | Silhouette: no for k = 2 to 4; marginal at k = 5 (p = 0.05, about 0.20 after correction) | Silhouette not tested against shuffled data. Agreement with K-means is (Step 9) | Silhouette: no for k = 2 to 4 (p = 0.26 to 0.60); marginal at k = 5 (p = 0.05, about 0.20 after correction) |
+| Compared with shuffled data | Silhouette: no for k = 2 to 4; marginal at k = 5 (p = 0.05, about 0.20 after correction) | Not in `03_GMM`. In `08_Compare`: no (p = 0.653). Agreement with K-means is tested in Step 9 | Silhouette: no for k = 2 to 4 (p = 0.26 to 0.60); marginal at k = 5 (p = 0.05, about 0.20 after correction) |
 | Stability test | Repeat with 10 different random seeds (ARI), compared with 100 shuffled datasets | Split each home's readings into two halves, fit on each, compare (ARI), 10 repeats | Cluster a random 80% of homes and compare with all homes (ARI), compared with 100 shuffled datasets |
 | Stability result | Not above shuffled data after correction (p × 3 = 0.535, 0.059, 0.089 for k = 2, 3, 5) | Mean ARI -0.002 (no better than chance) | Not above shuffled data (k = 3: p = 0.455; k = 5: p = 0.109); ARI 0.10 to 0.17 |
 | Output | `home_features.csv`, `home_segments.csv` | `segments_gmm.csv` | None |
@@ -155,6 +160,22 @@ Differences between segments are small (at most about 0.2 kWh per reading on any
 | Gaussian Mixture and Hierarchical | 0.208 |
 
 All three are low. The models do not find the same groups, which fits the finding that there are no clear groups to find.
+
+### Same-footing comparison (`08_Compare`)
+
+The three model notebooks use different stability tests, so their scores cannot be compared. `08_Compare` gives every model the same two tests, each compared with the same 100 shuffled datasets. A model passes a test only if its p-value times 3 (three models) is below 0.05.
+
+| | K-means (k = 3) | Gaussian Mixture (k = 2) | Hierarchical (k = 3) |
+|---|---|---|---|
+| Silhouette, real data | 0.076 | 0.058 | 0.038 |
+| Silhouette, shuffled data (mean) | 0.073 | 0.060 | 0.039 |
+| Silhouette p (p × 3) | 0.178 (0.535) | 0.653 (1.000) | 0.495 (1.000) |
+| Split-half stability (ARI), real data | 0.001 | -0.000 | -0.002 |
+| Split-half stability, shuffled data (mean) | 0.000 | -0.000 | 0.000 |
+| Stability p (p × 3) | 0.188 (0.564) | 0.485 (1.000) | 0.792 (1.000) |
+| Reliable groups? | No | No | No |
+
+In the split-half test each home's readings are split at random into two halves, the model is fitted on each half, and the two sets of groups are compared with ARI. The seed test used in `02_KMeans` is easier to pass, because only the random start changes, so it is not used here. The p-values differ from those in the model notebooks because the tests differ. Hierarchical at k = 3 splits the homes 205 / 194 / 101.
 
 ## Dashboard (`05_Dashboard`)
 
@@ -198,6 +219,8 @@ All tables are written to `data/processed/`.
 | `portfolio50_by_appliance.csv` | `06_Cost` | Average kWh, cost and share of cost by appliance, for the 50 homes and for all 500 |
 | `portfolio50_by_home.csv` | `06_Cost` | One row per portfolio home: measurements, average kWh, average cost, difference from the 500-home average |
 | `cost_assumptions.csv` | `06_Cost` | Rate, source, date, number of portfolio homes and seed |
+| `model_comparison.csv` | `08_Compare` | Silhouette, split-half stability, p-values and verdict for each model |
+| `model_agreement.csv` | `08_Compare` | ARI between each pair of models |
 
 `06_Cost` also saves three figures to `reports/figures/`.
 
@@ -211,7 +234,7 @@ All tables are written to `data/processed/`.
 
 - The dataset appears synthetic, so the findings may not apply to real households.
 - Segments are a descriptive grouping, not distinct household types. Segment labels are arbitrary and depend on the random seed.
-- The three models use different stability tests, and the GMM silhouette is not compared with shuffled data, so the models are not compared on exactly the same footing.
+- The three model notebooks use different stability tests, and `03_GMM` has no shuffled-data baseline for silhouette or stability. Only `08_Compare` puts the models on the same footing.
 - ARI values can only be compared with a shuffled baseline for the same k and the same test.
 - Readings are irregular single samples, so costs are per measurement and cannot be turned into monthly or yearly bills.
 - The electricity rate is indicative: one region, usage charge only, flat rate (time-of-use pricing is not modelled).
@@ -222,5 +245,5 @@ The analysis needs one row per reading with a home ID, an appliance type and an 
 
 1. Save it in `data/raw/` and change the file name at the top of each notebook.
 2. If its column names differ, rename them to match: `Home ID`, `Appliance Type`, `Energy Consumption (kWh)`.
-3. Rerun the shuffle and stability tests before trusting any segments. Real data may show clearer groups than this dataset.
+3. Rerun the shuffle and stability tests before trusting any segments, and run `08_Compare` to see whether any model passes the same tests. Real data may show clearer groups than this dataset.
 4. Rerun notebooks 05 and 06 and refresh the Power BI file. Set the same electricity rate in `06_Cost_analysis.ipynb` and in the `Electricity rate` parameter.
