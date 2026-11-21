@@ -20,7 +20,6 @@ Converts energy into estimated cost at a flat electricity rate, checks the Power
 | `portfolio50_by_appliance.csv` | `data/processed/` | Average kWh, cost and share of cost by appliance, for the 50 homes and for all 500 homes |
 | `portfolio50_by_home.csv` | `data/processed/` | One row per portfolio home: measurements, average kWh, average cost, difference from the 500-home average |
 | `cost_assumptions.csv` | `data/processed/` | Rate, source, date and seed used |
-| `fig1_cost_by_appliance.png`, `fig2_cost_share.png`, `fig3_units_vs_average.png` | `reports/figures/` | Figures used in the 50-unit report |
 
 ## Random seed
 
