@@ -3,7 +3,7 @@
 Hierarchical clustering (Ward linkage) of the 500 homes by appliance-level consumption, tested against shuffled data.
 
 - **Notebook:** `04_Hierarchical.ipynb`
-- **Input:** the Kaggle data file, `home_features.csv` and `home_segments.csv` (created by `02_KMeans/02_Kmeans.ipynb`). None is stored in this repository; run the K-means notebook first.
+- **Input:** the Kaggle data file, `home_features.csv` and `home_segments.csv` (created by `02_KMeans/02_Kmeans.ipynb`).
 - **Requires:** pandas, numpy, matplotlib, scipy, scikit-learn (see `requirements.txt` in the repository root).
 
 ## Method
